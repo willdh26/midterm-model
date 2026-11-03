@@ -9,10 +9,10 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "",
+  forecaster_name: "WD",
 
   // One short line under the name (optional).
-  tagline: "",
+  tagline: "Fundamentals Model",
 
   // A plain-language description of YOUR model, in your own words. Each line in
   // quotes is one paragraph, followed by a comma. Two or three short paragraphs:
@@ -22,11 +22,11 @@ window.SITE_CONFIG = {
   //
   // For example, the class model could be described like this (describe your
   // own model):
-  //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
+  //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "A fundamentals-only model with no polls. Each race has a predicted democratic share based on the national environment, district partisan lean, incumbency, and campaign spending. The national environment is from presidential approval, gas prices, and the midterm penalty.",
+    "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections."
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
